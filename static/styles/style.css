@@ -1,0 +1,67 @@
+.frontPage{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family:"Comic Sans MS", cursive, sans-serif
+}
+body{
+    background-image: url("/static/images/bg.jpg");
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position:center, center ;
+    height:100%;
+    width:100%;
+}
+.aboutMe{
+    color: white;
+    font-family: Gerogia, serif;
+    top: 70px;
+    left: 30%;
+    position:absolute;
+    background-color:darkslategray;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.emailSection{
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    margin: 0 auto;
+}
+    #emailBox{
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #textBox{
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #submitButton{
+        background-color:grey;
+        color: white;
+        border-radius: 5px;
+        
+    }
+    #label{
+        background-color:darkslategray;
+        color:white;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #contactTitle{
+        background-color: grey;
+        color:white;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:1.5em;
+    }
