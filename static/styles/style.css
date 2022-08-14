@@ -1,4 +1,19 @@
-
+body{
+    background-image: url("/static/images/bg.jpg");
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position:center, center ;
+    height:100%;
+    width:100%;
+}
+.iconLink{
+    right:10px
+}
+#jumpDown{
+    color: aliceblue;
+    font-family:"Comic Sans MS", cursive, sans-serif
+}
 #name{
     margin: 0;
     text-align: center;
@@ -9,20 +24,16 @@
 .aboutMe{
     color: white;
     font-family: Gerogia, serif;
-    top: 70px;
-    left: 30%;
+    text-align: center;
+    top: 200px;
     position:absolute;
     background-color:darkslategray;
     border-radius: 15px;
-    
+    padding: 10%;
 }
-
-body{
-    background-image: url("/static/images/bg.jpg");
-    background-size:cover;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    background-position:center, center ;
-    height:100%;
-    width:100%;
+.myProjects{
+    top: 500px;
+}
+.myProjects{
+    top:700px;
 }
