@@ -1,7 +1,7 @@
 
-.name{
+#name{
     position: fixed;
-    top: 20%;
+    top: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
