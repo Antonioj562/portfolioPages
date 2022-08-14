@@ -1,9 +1,7 @@
 
 #name{
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
     color: aliceblue;
     font-family:"Comic Sans MS", cursive, sans-serif
 }
@@ -16,10 +14,7 @@
     position:absolute;
     background-color:darkslategray;
     border-radius: 15px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    
 }
 
 body{
